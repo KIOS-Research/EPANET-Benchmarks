@@ -9,7 +9,7 @@ True and Best Known Pareto Front Data Files
 The pareto front files are available as text files where the first column represents the values of the resilience objective and the second column represents the values of the cost objective. The figures are available in Windows metafile (EMF) format.
 
 |Type| Problem PF|Figures|EPANET Input Files|
-|---------|---------|
+|---------|---------|---------|---------|
 |SP|Two-reservoir Network|TRN|TRN|
 |SP|Two-loop Network|TLN|TLN|
 |SP|BakRyan Network|BAK|BAK|
