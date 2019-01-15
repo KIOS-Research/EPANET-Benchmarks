@@ -2,4 +2,4 @@
 
 # EPANET-Benchmarks
 
-Picking up many EPANET water networks.
+A collection of several benchmark water networks.
