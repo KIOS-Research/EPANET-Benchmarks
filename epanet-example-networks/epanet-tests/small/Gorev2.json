@@ -1,0 +1,17 @@
+{
+    "name": "Gorev2",
+    "version": "1.0",
+    "description": "Zero flow condition",
+    "args": [
+        "Gorev2.inp",
+        "Gorev2.rpt", 
+        "Gorev2.out"
+    ],
+    "input_files": [
+        "Gorev2.inp"
+    ],
+    "output_files": {
+        "Gorev2.rpt": "epanet report",
+        "Gorev2.out": "epanet allclose"
+    }
+}

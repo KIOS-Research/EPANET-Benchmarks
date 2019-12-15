@@ -1,0 +1,17 @@
+{
+    "name": "exnet-3H",
+    "version": "0.1",
+    "description": "convergence criteria head",
+    "args": [
+        "exnet-3H.inp",
+        "exnet-3H.rpt", 
+        "exnet-3H.out"
+    ],
+    "input_files": [
+        "exnet-3H.inp"
+    ],
+    "output_files": {
+        "exnet-3H.rpt": "epanet report",
+        "exnet-3H.out": "epanet allclose"
+    }
+}

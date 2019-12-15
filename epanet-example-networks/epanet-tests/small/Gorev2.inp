@@ -1,0 +1,84 @@
+[TITLE]
+
+
+[JUNCTIONS]
+;ID              	Elev        	Demand      	Pattern         
+ 3               	0           	3           	                	;
+ 4               	0           	0           	                	;
+
+[RESERVOIRS]
+;ID              	Head        	Pattern         
+ 1               	10          	                	;
+ 2               	10          	                	;
+
+[TANKS]
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve
+
+[PIPES]
+;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
+ 1               	1               	3               	0.25        	1200        	120         	0           	Open  	;
+ 2               	2               	3               	0.5         	1200        	120         	0           	Open  	;
+ 3               	3               	4               	1000        	250         	120         	0           	Open  	;
+
+[PUMPS]
+;ID              	Node1           	Node2           	Parameters
+
+[VALVES]
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
+
+[TIMES]
+ Duration           	0
+ Hydraulic Timestep 	1:00
+ Quality Timestep   	0:05
+ Pattern Timestep   	1:00
+ Pattern Start      	0:00
+ Report Timestep    	1:00
+ Report Start       	0:00
+ Start ClockTime    	12 am
+ Statistic          	None
+
+[REPORT]
+ Status             	Full
+ Summary            	No
+ Page               	0
+ Nodes                  All
+ Links                  All
+ 
+[OPTIONS]
+ Units              	LPS
+ Headloss           	H-W
+ Specific Gravity   	1
+ Viscosity          	1
+ Trials             	40
+ Accuracy           	0.0001
+ CHECKFREQ          	2
+ MAXCHECK           	10
+ DAMPLIMIT          	0
+ Unbalanced         	Stop
+ Pattern            	1
+ Demand Multiplier  	1.0
+ Emitter Exponent   	0.5
+ Quality            	None mg/L
+ Diffusivity        	1
+ Tolerance          	0.01
+
+[COORDINATES]
+;Node            	X-Coord         	Y-Coord
+ 3               	4839.49         	5826.65         
+ 4               	4839.49         	3836.28         
+ 1               	1821.83         	5826.65         
+ 2               	7022.47         	5842.70         
+
+[VERTICES]
+;Link            	X-Coord         	Y-Coord
+
+[LABELS]
+;X-Coord           Y-Coord          Label & Anchor Node
+
+[BACKDROP]
+ DIMENSIONS     	0.00            	0.00            	10000.00        	10000.00        
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+[END]

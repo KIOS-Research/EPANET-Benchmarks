@@ -1,0 +1,17 @@
+{
+    "name": "exnet-3Q",
+    "version": "0.1",
+    "description": "convergence criteria flow",
+    "args": [
+        "exnet-3Q.inp",
+        "exnet-3Q.rpt", 
+        "exnet-3Q.out"
+    ],
+    "input_files": [
+        "exnet-3Q.inp"
+    ],
+    "output_files": {
+        "exnet-3Q.rpt": "epanet report",
+        "exnet-3Q.out": "epanet allclose"
+    }
+}

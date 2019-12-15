@@ -1,15 +1,15 @@
 [TITLE]
 EPANET Example Network 3
-Example showing how the percent of Lake water in a dual-source 
+Example showing how the percent of Lake water in a dual-source
 system changes over time.
 
 [JUNCTIONS]
-;ID              	Elev        	Demand      	Pattern         
+;ID              	Elev        	Demand      	Pattern
  node1              	147         	1           	1               	;
  node2			147		1		1
 
 [RESERVOIRS]
-;ID              	Head        	Pattern         
+;ID              	Head        	Pattern
  reservoir              220.0       	                	;
 
 [TANKS]
@@ -19,12 +19,12 @@ system changes over time.
 ;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
  pipe1              	reservoir          	node1              	100          	12          	100         	0           	Open  	;
  pipe2			node1			node2			100		12		100		0		Open	;
- 
+
 [PUMPS]
 ;ID              	Node1           	Node2           	Parameters
 
 [VALVES]
-;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss
 
 [TAGS]
 
@@ -33,16 +33,16 @@ system changes over time.
 
 [STATUS]
 ;ID              	Status/Setting
- 10              	Closed
+;10              	Closed
 
 [PATTERNS]
 ;ID              	Multipliers
 ;General Default Demand Pattern
- 1               	1        	
- 
+ 1               	1
+
 [CURVES]
 ;ID              	X-Value     	Y-Value
-         
+
 
 [CONTROLS]
 
@@ -80,13 +80,13 @@ system changes over time.
 ;Tank            	Model
 
 [TIMES]
- Duration           	24:00 
- Hydraulic Timestep 	0:05 
- Quality Timestep   	0:05 
- Pattern Timestep   	1:00 
- Pattern Start      	0:00 
- Report Timestep    	1:00 
- Report Start       	0:00 
+ Duration           	24:00
+ Hydraulic Timestep 	0:05
+ Quality Timestep   	0:05
+ Pattern Timestep   	1:00
+ Pattern Start      	0:00
+ Report Timestep    	1:00
+ Report Start       	0:00
  Start ClockTime    	12 am
  Statistic          	None
 
@@ -115,9 +115,9 @@ system changes over time.
 
 [COORDINATES]
 ;Node            	X-Coord         	Y-Coord
-          
+
 
 [VERTICES]
-;Link            	X-Coord         	Y-Coord          
+;Link            	X-Coord         	Y-Coord
 
 [END]

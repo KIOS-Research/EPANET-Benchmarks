@@ -1,0 +1,17 @@
+{
+    "name": "cheung",
+    "version": "1.0",
+    "description": "Pressure dependant demands",
+    "args": [
+        "cheung.inp",
+        "cheung.rpt", 
+        "cheung.out"
+    ],
+    "input_files": [
+        "cheung.inp"
+    ],
+    "output_files": {
+        "cheung.rpt": "epanet report",
+        "cheung.out": "epanet allclose"
+    }
+}

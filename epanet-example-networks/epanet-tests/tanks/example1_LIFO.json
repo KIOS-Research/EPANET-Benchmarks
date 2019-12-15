@@ -1,0 +1,17 @@
+{
+    "name": "example1_LIFO",
+    "version": "1.0",
+    "description": "Tank mixing model last in first out",
+    "args": [
+        "example1_LIFO.inp",
+        "example1_LIFO.rpt", 
+        "example1_LIFO.out"
+    ],
+    "input_files": [
+        "example1_LIFO.inp"
+    ],
+    "output_files": {
+        "example1_LIFO.rpt": "epanet report",
+        "example1_LIFO.out": "epanet allclose"
+    }
+}

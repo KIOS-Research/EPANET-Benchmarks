@@ -1,0 +1,17 @@
+{
+    "name": "example1_2comp",
+    "version": "1.0",
+    "description": "Tank mixing model 2 compartments",
+    "args": [
+        "example1_2comp.inp",
+        "example1_2comp.rpt", 
+        "example1_2comp.out"
+    ],
+    "input_files": [
+        "example1_2comp.inp"
+    ],
+    "output_files": {
+        "example1_2comp.rpt": "epanet report",
+        "example1_2comp.out": "epanet allclose"
+    }
+}
